@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    min-height: 50vh;
+    gap: 10px;
+ 
+}
+
+.taskinput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.taskbtn {
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 25%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.task-container {
+    display: flex;
+    width: 60%;
+}
+
+.tasksdiv {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.taskbar {
+    background: #ccc;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Delete {
+    background-color: cornflowerblue;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
